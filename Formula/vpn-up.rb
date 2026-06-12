@@ -20,6 +20,6 @@ class VpnUp < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("#{bin}/vpn-up")
+    assert_match "Usage:", shell_output(bin/"vpn-up")
   end
 end
