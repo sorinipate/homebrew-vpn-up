@@ -13,7 +13,7 @@ class VpnUp < Formula
     libexec.install Dir["*"]
     (bin/"vpn-up").write <<~SH
       #!/bin/sh
-      exec "#{Formula["bash"].opt_bin}/bash" "#{libexec}/vpn-up.command" "$@"
+      exec "#{Formula["bash"].opt_bin}/bash" "#{opt_libexec}/vpn-up.command" "$@"
     SH
     chmod 0755, bin/"vpn-up"
     bash_completion.install libexec/"completions/vpn-up.bash" => "vpn-up"
