@@ -1,8 +1,8 @@
 class VpnUp < Formula
   desc "Secure command-line client for Cisco AnyConnect and other SSL VPNs"
   homepage "https://github.com/sorinipate/vpn-up-for-openconnect"
-  url "https://github.com/sorinipate/vpn-up-for-openconnect/archive/refs/tags/v3.6.0.tar.gz"
-  sha256 "ec697a655821c836191711fa2a511f3028d662da52fdc4a9c8565d3eb6624678"
+  url "https://github.com/sorinipate/vpn-up-for-openconnect/archive/refs/tags/v3.7.0.tar.gz"
+  sha256 "ffa2e0e91fd71fc26219a13cb0b5ec19365fad93cf0e11d2ffd2ff9b091128d7"
   license "MIT"
 
   depends_on "bash"
